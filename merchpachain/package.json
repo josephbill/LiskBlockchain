@@ -1,0 +1,32 @@
+{
+    "name": "merchpachain",
+    "version": "1.0.0",
+    "description": "A Lisk Dapp Scaffold",
+    "private": true,
+    "author": "Jordan, Ronex, Antony",
+    "license": "MIT",
+    "scripts": {
+        "react-app:dev": "yarn workspace @merchpachain/react-app dev",
+        "react-app:build": "yarn workspace @merchpachain/react-app build",
+        "react-app:start": "yarn workspace @merchpachain/react-app start",
+        "react-app:lint": "yarn workspace @merchpachain/react-app lint"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/LiskAfricaEcosystem/scaffold-lisk.git"
+    },
+    "bugs": {
+        "url": "https://github.com/LiskAfricaEcosystem/scaffold-lisk/issues"
+    },
+    "homepage": "https://github.com/LiskAfricaEcosystem/scaffold-lisk/blob/main/README.md",
+    "workspaces": [
+        "packages/*"
+    ],
+    "keywords": [
+        "lisk",
+        "dapp"
+    ],
+    "dependencies": {
+        "firebase-admin": "^12.1.1"
+    }
+}
